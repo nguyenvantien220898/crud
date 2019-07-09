@@ -10,13 +10,10 @@
 |
 */
 Route::get('/', function () {
-    return view('webmag.views.homepage.homepage');
+    return view('welcome');
 });
 Route::get('/category/{id}/{abc}', function ($id, $abc) {
-    var_dump($id);
-    echo "<br>";
-    var_dump($abc);
-    exit;
+
     return view('webmag.views.category.category');
 });
 /**
