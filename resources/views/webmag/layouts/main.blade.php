@@ -12,13 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link type="text/css" rel="stylesheet" href="{{ asset("webmag/css/bootstrap.min.css") }}"/>
+    <link type="text/css" rel="stylesheet" href="{{ secure_asset("webmag/css/bootstrap.min.css") }}"/>
 
     <!-- Font Awesome Icon -->
-    <link rel="stylesheet" href="{{ asset("webmag/css/font-awesome.min.css") }}">
+    <link rel="stylesheet" href="{{ secure_asset("webmag/css/font-awesome.min.css") }}">
 
     <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="{{ asset("webmag/css/style.css") }}"/>
+    <link type="text/css" rel="stylesheet" href="{{ secure_secure_asset("webmag/css/style.css") }}"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,9 +41,9 @@
 <!-- /Footer -->
 
 <!-- jQuery Plugins -->
-<script src="{{ asset("webmag/js/jquery.min.js") }}"></script>
-<script src="{{ asset("webmag/js/bootstrap.min.js") }}"></script>
-<script src="{{ asset("webmag/js/main.js") }}"></script>
+<script src="{{ secure_asset("webmag/js/jquery.min.js") }}"></script>
+<script src="{{ secure_asset("webmag/js/bootstrap.min.js") }}"></script>
+<script src="{{ secure_asset("webmag/js/main.js") }}"></script>
 
 </body>
 </html>
