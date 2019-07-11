@@ -49,3 +49,6 @@ Route::prefix("admin")->group(function() {
     //xóa sản phẩm
     Route::post("/products/delete/{id}", "Backend\ProductController@destroy");
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
